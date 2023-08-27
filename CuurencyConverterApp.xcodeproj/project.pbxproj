@@ -16,6 +16,7 @@
 		C45884892A084D50008B8140 /* CuurencyConverterAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45884882A084D50008B8140 /* CuurencyConverterAppTests.swift */; };
 		C45884932A084D50008B8140 /* CuurencyConverterAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45884922A084D50008B8140 /* CuurencyConverterAppUITests.swift */; };
 		C45884952A084D50008B8140 /* CuurencyConverterAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45884942A084D50008B8140 /* CuurencyConverterAppUITestsLaunchTests.swift */; };
+		C45884A22A085AF0008B8140 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45884A12A085AF0008B8140 /* CurrencyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C458848E2A084D50008B8140 /* CuurencyConverterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuurencyConverterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45884922A084D50008B8140 /* CuurencyConverterAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuurencyConverterAppUITests.swift; sourceTree = "<group>"; };
 		C45884942A084D50008B8140 /* CuurencyConverterAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuurencyConverterAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C45884A12A085AF0008B8140 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C45884712A084D4F008B8140 /* AppDelegate.swift */,
 				C45884732A084D4F008B8140 /* SceneDelegate.swift */,
 				C45884752A084D4F008B8140 /* ViewController.swift */,
+				C45884A12A085AF0008B8140 /* CurrencyFormatter.swift */,
 				C45884772A084D4F008B8140 /* Main.storyboard */,
 				C458847A2A084D50008B8140 /* Assets.xcassets */,
 				C458847C2A084D50008B8140 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45884762A084D4F008B8140 /* ViewController.swift in Sources */,
+				C45884A22A085AF0008B8140 /* CurrencyFormatter.swift in Sources */,
 				C45884722A084D4F008B8140 /* AppDelegate.swift in Sources */,
 				C45884742A084D4F008B8140 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuurencyConverterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CuurencyConverterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
